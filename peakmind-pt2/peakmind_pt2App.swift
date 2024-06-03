@@ -1,12 +1,10 @@
 import SwiftUI
 import FirebaseCore
-
 import UIKit
 import Firebase
 import GoogleSignIn
 
 class AppDelegate: UIResponder, UIApplicationDelegate {
-
     var window: UIWindow?
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
@@ -20,8 +18,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 }
 
 @main
-struct peakmind_pt2App: App {
+struct peakmind_pt2: App {
+    @UIApplicationDelegateAdaptor(AppDelegate.self) var delegate
+
     @StateObject var authViewModel = AuthViewModel()
+    @StateObject var communitiesViewModel = CommunitiesViewModel()
 
     init() {
         FirebaseApp.configure()
@@ -31,6 +32,7 @@ struct peakmind_pt2App: App {
         WindowGroup {
             ContentView()
                 .environmentObject(authViewModel)
+                .environmentObject(communitiesViewModel)
                 .onOpenURL { url in
                     GIDSignIn.sharedInstance.handle(url)
                 }
@@ -44,4 +46,3 @@ struct peakmind_pt2App: App {
         }
     }
 }
-

@@ -7,7 +7,7 @@ import GoogleSignIn
 
 class AuthViewModel: ObservableObject {
     @Published var userSession: FirebaseAuth.User?
-    @Published var user: UserData?
+    @Published var currentUser: UserData?
     @Published var isSignedIn: Bool = false
 
     private var authStateDidChangeListenerHandle: AuthStateDidChangeListenerHandle?
@@ -20,7 +20,7 @@ class AuthViewModel: ObservableObject {
                 self.fetchUserData(userId: user.uid)
             } else {
                 self.isSignedIn = false
-                self.user = nil
+                self.currentUser = nil
             }
         }
     }
@@ -30,7 +30,7 @@ class AuthViewModel: ObservableObject {
         userRef.getDocument { document, error in
             if let document = document, document.exists {
                 do {
-                    self.user = try document.data(as: UserData.self)
+                    self.currentUser = try document.data(as: UserData.self)
                     self.isSignedIn = true
                 } catch {
                     print("Error decoding user data: \(error.localizedDescription)")
@@ -83,7 +83,7 @@ class AuthViewModel: ObservableObject {
                 )
                 do {
                     try self.db.collection("users").document(user.uid).setData(from: userData)
-                    self.user = userData
+                    self.currentUser = userData
                     self.isSignedIn = true
                 } catch {
                     print("Error saving user data: \(error.localizedDescription)")
@@ -95,7 +95,7 @@ class AuthViewModel: ObservableObject {
     func signOut() {
         do {
             try Auth.auth().signOut()
-            self.user = nil
+            self.currentUser = nil
             self.userSession = nil
         } catch {
             print("Failed to sign out: \(error.localizedDescription)")
@@ -145,7 +145,7 @@ class AuthViewModel: ObservableObject {
         userRef.getDocument { document, error in
             if let document = document, document.exists {
                 do {
-                    self.user = try document.data(as: UserData.self)
+                    self.currentUser = try document.data(as: UserData.self)
                     self.isSignedIn = true
                 } catch {
                     print("Error decoding user data: \(error.localizedDescription)")
@@ -172,7 +172,7 @@ class AuthViewModel: ObservableObject {
                 )
                 do {
                     try self.db.collection("users").document(user.uid).setData(from: userData)
-                    self.user = userData
+                    self.currentUser = userData
                     self.isSignedIn = true
                 } catch {
                     print("Error saving user data: \(error.localizedDescription)")
@@ -198,7 +198,7 @@ class AuthViewModel: ObservableObject {
             // Clear any related user data in the app
             DispatchQueue.main.async { [weak self] in
                 self?.userSession = nil
-                self?.user = nil
+                self?.currentUser = nil
             }
             
             print("User account and data successfully deleted.")
@@ -209,7 +209,7 @@ class AuthViewModel: ObservableObject {
 
     func signInWithGoogle() {
         guard let clientID = FirebaseApp.app()?.options.clientID else { return }
-        let configuration = GIDConfiguration(clientID: clientID)
+        _ = GIDConfiguration(clientID: clientID)
 
         guard let windowScene = UIApplication.shared.connectedScenes.first as? UIWindowScene else { return }
         guard let rootViewController = windowScene.windows.first?.rootViewController else { return }
@@ -244,7 +244,7 @@ class AuthViewModel: ObservableObject {
     
     //Level Functions
     func markLevelCompleted(levelID: String) async throws {
-        guard let currentUserID = user?.id else {
+        guard let currentUserID = currentUser?.id else {
             throw NSError(domain: "AuthError", code: 401, userInfo: [NSLocalizedDescriptionKey: "User not authenticated."])
         }
 
@@ -252,10 +252,10 @@ class AuthViewModel: ObservableObject {
         let userRef = db.collection("users").document(currentUserID)
 
         // Update the local model first
-        if let index = user?.completedLevels.firstIndex(where: { $0 == levelID }) {
+        if let index = currentUser?.completedLevels.firstIndex(where: { $0 == levelID }) {
             print("Level already marked as completed.")
         } else {
-            user?.completedLevels.append(levelID)
+            currentUser?.completedLevels.append(levelID)
         }
 
         // Synchronize with Firestore
@@ -274,7 +274,7 @@ class AuthViewModel: ObservableObject {
     }
     
     func markLevelCompleted2(levelID: String) async throws {
-        guard let currentUserID = user?.id else {
+        guard let currentUserID = currentUser?.id else {
             throw NSError(domain: "AuthError", code: 401, userInfo: [NSLocalizedDescriptionKey: "User not authenticated."])
         }
 
@@ -282,10 +282,10 @@ class AuthViewModel: ObservableObject {
         let userRef = db.collection("users").document(currentUserID)
 
         // Update the local model first
-        if let index = user?.completedLevels.firstIndex(where: { $0 == levelID }) {
+        if let index = currentUser?.completedLevels.firstIndex(where: { $0 == levelID }) {
             print("Level already marked as completed.")
         } else {
-            user?.completedLevels2.append(levelID)
+            currentUser?.completedLevels2.append(levelID)
         }
 
         // Synchronize with Firestore
@@ -305,7 +305,7 @@ class AuthViewModel: ObservableObject {
     
     
     func saveSelectedWidgets(selected: [String]) async {
-        guard let user = user else {
+        guard let user = currentUser else {
             print("No authenticated user found.")
             return
         }
@@ -330,11 +330,9 @@ class AuthViewModel: ObservableObject {
         
         guard let snapshot = try? await Firestore.firestore().collection("users").document(uid).getDocument() else {return}
     
-        self.user = try? snapshot.data(as: UserData.self)
+        self.currentUser = try? snapshot.data(as: UserData.self)
         
-        print("Debug current user is \(String(describing: self.user))")
-        communitiesViewModel.loadCommunities()
-
+        print("Debug current user is \(String(describing: self.currentUser))")
         
     }
     

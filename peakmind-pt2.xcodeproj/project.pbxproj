@@ -7,10 +7,115 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1C65A6232C0E2D4C00C04DFF /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C65A6222C0E2D4C00C04DFF /* UserData.swift */; };
+		1C65A6272C0E4D9B00C04DFF /* Avatar-Igloo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C65A6262C0E4D9B00C04DFF /* Avatar-Igloo.swift */; };
+		1C65A6292C0E4DE500C04DFF /* Tutorial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C65A6282C0E4DE500C04DFF /* Tutorial.swift */; };
+		1C65A62B2C0E4E0B00C04DFF /* TabViewMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C65A62A2C0E4E0B00C04DFF /* TabViewMain.swift */; };
+		1C65A62D2C0E4E3800C04DFF /* SplashScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C65A62C2C0E4E3800C04DFF /* SplashScreen.swift */; };
+		1C65A62F2C0E4E9700C04DFF /* HealthKitManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C65A62E2C0E4E9700C04DFF /* HealthKitManager.swift */; };
+		1C65A6372C0E5A5500C04DFF /* SelfCareMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C65A6362C0E5A5500C04DFF /* SelfCareMainView.swift */; };
+		1C65A6392C0E5AE800C04DFF /* SherpaTutorialBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C65A6382C0E5AE800C04DFF /* SherpaTutorialBox.swift */; };
+		1C65A63B2C0E5B1100C04DFF /* QuestionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C65A63A2C0E5B1100C04DFF /* QuestionsView.swift */; };
+		1C65A63D2C0E5B6200C04DFF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C65A63C2C0E5B6200C04DFF /* Assets.xcassets */; };
+		1C65A63F2C0E5BAE00C04DFF /* ConfettiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C65A63E2C0E5BAE00C04DFF /* ConfettiView.swift */; };
+		1C65A6712C0E5C6100C04DFF /* P1-3_EmotionsScenario.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C65A6402C0E5C6000C04DFF /* P1-3_EmotionsScenario.swift */; };
+		1C65A6722C0E5C6100C04DFF /* P1-3_ScenarioQuiz.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C65A6412C0E5C6000C04DFF /* P1-3_ScenarioQuiz.swift */; };
+		1C65A6732C0E5C6100C04DFF /* P1-9_BoxBreathing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C65A6432C0E5C6000C04DFF /* P1-9_BoxBreathing.swift */; };
+		1C65A6742C0E5C6100C04DFF /* pkmdBoxBreathingEncoded.mov in Resources */ = {isa = PBXBuildFile; fileRef = 1C65A6442C0E5C6000C04DFF /* pkmdBoxBreathingEncoded.mov */; };
+		1C65A6752C0E5C6100C04DFF /* pkmdMuscleExerciseEncoded.mov in Resources */ = {isa = PBXBuildFile; fileRef = 1C65A6452C0E5C6000C04DFF /* pkmdMuscleExerciseEncoded.mov */; };
+		1C65A6762C0E5C6100C04DFF /* MuscleRelaxationExplanationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C65A6472C0E5C6000C04DFF /* MuscleRelaxationExplanationView.swift */; };
+		1C65A6772C0E5C6100C04DFF /* Minigame2View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C65A6492C0E5C6000C04DFF /* Minigame2View.swift */; };
+		1C65A6782C0E5C6100C04DFF /* words.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1C65A64A2C0E5C6000C04DFF /* words.txt */; };
+		1C65A6792C0E5C6100C04DFF /* P1-1_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C65A64C2C0E5C6000C04DFF /* P1-1_Intro.swift */; };
+		1C65A67A2C0E5C6100C04DFF /* P1-2_MentalHealthMod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C65A64D2C0E5C6000C04DFF /* P1-2_MentalHealthMod.swift */; };
+		1C65A67B2C0E5C6100C04DFF /* P1-4_StressModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C65A64E2C0E5C6000C04DFF /* P1-4_StressModule.swift */; };
+		1C65A67C2C0E5C6100C04DFF /* P1-5_StressTriggerMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C65A64F2C0E5C6000C04DFF /* P1-5_StressTriggerMap.swift */; };
+		1C65A67D2C0E5C6100C04DFF /* P1-6_PersonalQuestion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C65A6502C0E5C6000C04DFF /* P1-6_PersonalQuestion.swift */; };
+		1C65A67E2C0E5C6100C04DFF /* P1-7_MindfulnessModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C65A6512C0E5C6000C04DFF /* P1-7_MindfulnessModule.swift */; };
+		1C65A67F2C0E5C6100C04DFF /* P1-8_ResourcesAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C65A6522C0E5C6000C04DFF /* P1-8_ResourcesAnimation.swift */; };
+		1C65A6802C0E5C6100C04DFF /* P1-10_LifestyleModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C65A6532C0E5C6000C04DFF /* P1-10_LifestyleModule.swift */; };
+		1C65A6812C0E5C6100C04DFF /* P1-11_CauseEffectMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C65A6542C0E5C6000C04DFF /* P1-11_CauseEffectMap.swift */; };
+		1C65A6822C0E5C6100C04DFF /* P1-12_LifestyleQuestion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C65A6552C0E5C6000C04DFF /* P1-12_LifestyleQuestion.swift */; };
+		1C65A6832C0E5C6100C04DFF /* P1-13_BodyScan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C65A6562C0E5C6000C04DFF /* P1-13_BodyScan.swift */; };
+		1C65A6842C0E5C6100C04DFF /* P1-14_Reflection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C65A6572C0E5C6000C04DFF /* P1-14_Reflection.swift */; };
+		1C65A6852C0E5C6100C04DFF /* P2-3_DefiningAnxietyScenario.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C65A6592C0E5C6000C04DFF /* P2-3_DefiningAnxietyScenario.swift */; };
+		1C65A6862C0E5C6100C04DFF /* P2-3_ScenarioQuiz.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C65A65A2C0E5C6000C04DFF /* P2-3_ScenarioQuiz.swift */; };
+		1C65A6872C0E5C6100C04DFF /* BreathingExerciseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C65A65C2C0E5C6000C04DFF /* BreathingExerciseView.swift */; };
+		1C65A6882C0E5C6100C04DFF /* Level3IntroView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C65A65D2C0E5C6000C04DFF /* Level3IntroView.swift */; };
+		1C65A6892C0E5C6100C04DFF /* pkmdTriangleEncoded.mov in Resources */ = {isa = PBXBuildFile; fileRef = 1C65A65E2C0E5C6000C04DFF /* pkmdTriangleEncoded.mov */; };
+		1C65A68A2C0E5C6100C04DFF /* SpriteKitUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C65A65F2C0E5C6000C04DFF /* SpriteKitUIView.swift */; };
+		1C65A68B2C0E5C6100C04DFF /* P2-1_AnxietyModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C65A6622C0E5C6000C04DFF /* P2-1_AnxietyModule.swift */; };
+		1C65A68C2C0E5C6100C04DFF /* P2-1_Intro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C65A6632C0E5C6000C04DFF /* P2-1_Intro.swift */; };
+		1C65A68D2C0E5C6100C04DFF /* P2-4_AnxietyTriggerMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C65A6642C0E5C6000C04DFF /* P2-4_AnxietyTriggerMap.swift */; };
+		1C65A68E2C0E5C6100C04DFF /* P2-5_AnxietyWellnessQ.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C65A6652C0E5C6000C04DFF /* P2-5_AnxietyWellnessQ.swift */; };
+		1C65A68F2C0E5C6100C04DFF /* P2-6_AnxietyModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C65A6662C0E5C6000C04DFF /* P2-6_AnxietyModule.swift */; };
+		1C65A6902C0E5C6100C04DFF /* P2-7_ExperienceQ.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C65A6672C0E5C6000C04DFF /* P2-7_ExperienceQ.swift */; };
+		1C65A6912C0E5C6100C04DFF /* P2-8_4Sliders.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C65A6682C0E5C6000C04DFF /* P2-8_4Sliders.swift */; };
+		1C65A6922C0E5C6100C04DFF /* P2-9_GoalSetting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C65A6692C0E5C6000C04DFF /* P2-9_GoalSetting.swift */; };
+		1C65A6932C0E5C6100C04DFF /* P2-10_5Factors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C65A66A2C0E5C6000C04DFF /* P2-10_5Factors.swift */; };
+		1C65A6942C0E5C6100C04DFF /* P2-11_FeelingTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C65A66B2C0E5C6000C04DFF /* P2-11_FeelingTimer.swift */; };
+		1C65A6952C0E5C6100C04DFF /* P2-12_CopingModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C65A66C2C0E5C6000C04DFF /* P2-12_CopingModule.swift */; };
+		1C65A6962C0E5C6100C04DFF /* P2-14_Reflection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C65A66D2C0E5C6000C04DFF /* P2-14_Reflection.swift */; };
+		1C65A6972C0E5C6100C04DFF /* PacMan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C65A66E2C0E5C6000C04DFF /* PacMan.swift */; };
+		1C65A6992C0E5C9F00C04DFF /* HomeDashboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C65A6982C0E5C9F00C04DFF /* HomeDashboard.swift */; };
+		1C65A6A02C0E5CD500C04DFF /* JournalDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C65A69A2C0E5CD500C04DFF /* JournalDataManager.swift */; };
+		1C65A6A12C0E5CD500C04DFF /* JournalDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C65A69B2C0E5CD500C04DFF /* JournalDetailView.swift */; };
+		1C65A6A22C0E5CD500C04DFF /* JournalEntriesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C65A69C2C0E5CD500C04DFF /* JournalEntriesView.swift */; };
+		1C65A6A32C0E5CD500C04DFF /* JournalEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C65A69D2C0E5CD500C04DFF /* JournalEntry.swift */; };
+		1C65A6A42C0E5CD500C04DFF /* JournalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C65A69E2C0E5CD500C04DFF /* JournalView.swift */; };
+		1C65A6AC2C0E5D1600C04DFF /* MessageBubble.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C65A6A52C0E5D1600C04DFF /* MessageBubble.swift */; };
+		1C65A6AD2C0E5D1600C04DFF /* ChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C65A6A72C0E5D1600C04DFF /* ChatView.swift */; };
+		1C65A6AE2C0E5D1600C04DFF /* ResourcesToUtilize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C65A6AA2C0E5D1600C04DFF /* ResourcesToUtilize.swift */; };
+		1C65A6B42C0E5D7600C04DFF /* AnxietyCommunityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C65A6AF2C0E5D7600C04DFF /* AnxietyCommunityView.swift */; };
+		1C65A6B52C0E5D7600C04DFF /* CommunitiesMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C65A6B02C0E5D7600C04DFF /* CommunitiesMainView.swift */; };
+		1C65A6B62C0E5D7600C04DFF /* CommunityTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C65A6B12C0E5D7600C04DFF /* CommunityTest.swift */; };
+		1C65A6B72C0E5D7600C04DFF /* UserProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C65A6B22C0E5D7600C04DFF /* UserProfileView.swift */; };
+		1C65A6B92C0E717B00C04DFF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C65A6B82C0E717B00C04DFF /* Preview Assets.xcassets */; };
+		1C65A6BB2C0E728D00C04DFF /* Multisection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C65A6BA2C0E728D00C04DFF /* Multisection.swift */; };
+		1C65A6BF2C0E73D300C04DFF /* Sherpa.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C65A6BE2C0E73D300C04DFF /* Sherpa.swift */; };
+		1C65A6C12C0E73ED00C04DFF /* SpeechBubble.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C65A6C02C0E73ED00C04DFF /* SpeechBubble.swift */; };
+		1C65A6C32C0E756100C04DFF /* InteractiveViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C65A6C22C0E756100C04DFF /* InteractiveViewModel.swift */; };
+		1C65A6C52C0E778600C04DFF /* L2SherpaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C65A6C42C0E778600C04DFF /* L2SherpaView.swift */; };
+		1C65A6F72C0E77B800C04DFF /* MuscleRelaxationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C65A6C62C0E77B800C04DFF /* MuscleRelaxationView.swift */; };
+		1C65A6F82C0E77B800C04DFF /* AnxietyQuiz.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C65A6C82C0E77B800C04DFF /* AnxietyQuiz.swift */; };
+		1C65A6F92C0E77B800C04DFF /* InventoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C65A6C92C0E77B800C04DFF /* InventoryView.swift */; };
+		1C65A6FA2C0E77B800C04DFF /* StoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C65A6CA2C0E77B800C04DFF /* StoreView.swift */; };
+		1C65A6FB2C0E77B800C04DFF /* AnimatedSpeechBubble.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C65A6CC2C0E77B800C04DFF /* AnimatedSpeechBubble.swift */; };
+		1C65A6FC2C0E77B800C04DFF /* AnimatedTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C65A6CD2C0E77B800C04DFF /* AnimatedTextView.swift */; };
+		1C65A6FD2C0E77B800C04DFF /* Background.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C65A6CE2C0E77B800C04DFF /* Background.swift */; };
+		1C65A6FE2C0E77B800C04DFF /* MultiSectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C65A6CF2C0E77B800C04DFF /* MultiSectionView.swift */; };
+		1C65A6FF2C0E77B800C04DFF /* SherpaContinue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C65A6D02C0E77B800C04DFF /* SherpaContinue.swift */; };
+		1C65A7002C0E77B800C04DFF /* SymptomsQuizView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C65A6D32C0E77B800C04DFF /* SymptomsQuizView.swift */; };
+		1C65A7012C0E77B800C04DFF /* TimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C65A6D42C0E77B800C04DFF /* TimerView.swift */; };
+		1C65A7022C0E77B800C04DFF /* L2QuizResponseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C65A6D62C0E77B800C04DFF /* L2QuizResponseView.swift */; };
+		1C65A7032C0E77B800C04DFF /* L2SherpaChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C65A6D72C0E77B800C04DFF /* L2SherpaChatView.swift */; };
+		1C65A7042C0E77B800C04DFF /* Level2FlavorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C65A6D82C0E77B800C04DFF /* Level2FlavorView.swift */; };
+		1C65A7052C0E77B800C04DFF /* PhysImpactsAnxietyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C65A6D92C0E77B800C04DFF /* PhysImpactsAnxietyView.swift */; };
+		1C65A7062C0E77B800C04DFF /* ReducingAnxietyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C65A6DA2C0E77B800C04DFF /* ReducingAnxietyView.swift */; };
+		1C65A7072C0E77B800C04DFF /* WellnessQ2View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C65A6DB2C0E77B800C04DFF /* WellnessQ2View.swift */; };
+		1C65A7082C0E77B800C04DFF /* WellnessQ3View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C65A6DC2C0E77B800C04DFF /* WellnessQ3View.swift */; };
+		1C65A7092C0E77B800C04DFF /* WindsLouderFlavorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C65A6DD2C0E77B800C04DFF /* WindsLouderFlavorView.swift */; };
+		1C65A70A2C0E77B800C04DFF /* Level2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C65A6DF2C0E77B800C04DFF /* Level2.swift */; };
+		1C65A70B2C0E77B800C04DFF /* Level2Complete.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C65A6E02C0E77B800C04DFF /* Level2Complete.swift */; };
+		1C65A70C2C0E77B800C04DFF /* PhysicalAnxietyQuiz.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C65A6E12C0E77B800C04DFF /* PhysicalAnxietyQuiz.swift */; };
+		1C65A70D2C0E77B800C04DFF /* SMARTGoalSettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C65A6E22C0E77B800C04DFF /* SMARTGoalSettingView.swift */; };
+		1C65A70E2C0E77B800C04DFF /* WindsFlavorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C65A6E32C0E77B800C04DFF /* WindsFlavorView.swift */; };
+		1C65A70F2C0E77B800C04DFF /* CurrentToNewHabits.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C65A6E62C0E77B800C04DFF /* CurrentToNewHabits.swift */; };
+		1C65A7102C0E77B800C04DFF /* ScenarioQuizView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C65A6E72C0E77B800C04DFF /* ScenarioQuizView.swift */; };
+		1C65A7112C0E77B800C04DFF /* ResilienceChecklistView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C65A6E92C0E77B800C04DFF /* ResilienceChecklistView.swift */; };
+		1C65A7122C0E77B800C04DFF /* Level2MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C65A6EC2C0E77B800C04DFF /* Level2MapView.swift */; };
+		1C65A7132C0E77B800C04DFF /* LevelOneMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C65A6ED2C0E77B800C04DFF /* LevelOneMapView.swift */; };
+		1C65A7142C0E77B800C04DFF /* L1ScenarioQuiz.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C65A6EF2C0E77B800C04DFF /* L1ScenarioQuiz.swift */; };
+		1C65A7152C0E77B800C04DFF /* ScenarioQuizTemplate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C65A6F02C0E77B800C04DFF /* ScenarioQuizTemplate.swift */; };
+		1C65A7162C0E77B800C04DFF /* ScenarioTemplate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C65A6F12C0E77B800C04DFF /* ScenarioTemplate.swift */; };
+		1C65A7172C0E77B800C04DFF /* SherpaAlone.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C65A6F22C0E77B800C04DFF /* SherpaAlone.swift */; };
+		1C65A7182C0E77B800C04DFF /* SherpaTalking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C65A6F32C0E77B800C04DFF /* SherpaTalking.swift */; };
+		1C65A7192C0E77B800C04DFF /* Structs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C65A6F52C0E77B800C04DFF /* Structs.swift */; };
+		1C65A71B2C0E7AE200C04DFF /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C65A71A2C0E7AE200C04DFF /* ProfileView.swift */; };
+		1C65A71D2C0E7B0C00C04DFF /* FeedbackForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C65A71C2C0E7B0C00C04DFF /* FeedbackForm.swift */; };
 		1C9715FA2BF2BFE700684135 /* peakmind_pt2App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C9715F92BF2BFE700684135 /* peakmind_pt2App.swift */; };
 		1C9715FC2BF2BFE700684135 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C9715FB2BF2BFE700684135 /* ContentView.swift */; };
 		1C9715FE2BF2BFE800684135 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C9715FD2BF2BFE800684135 /* Assets.xcassets */; };
-		1C9716012BF2BFE800684135 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C9716002BF2BFE800684135 /* Preview Assets.xcassets */; };
 		1C97160B2BF2BFE800684135 /* peakmind_pt2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C97160A2BF2BFE800684135 /* peakmind_pt2Tests.swift */; };
 		1C9716152BF2BFE800684135 /* peakmind_pt2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C9716142BF2BFE800684135 /* peakmind_pt2UITests.swift */; };
 		1C9716172BF2BFE800684135 /* peakmind_pt2UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C9716162BF2BFE800684135 /* peakmind_pt2UITestsLaunchTests.swift */; };
@@ -45,7 +150,6 @@
 		1C97166D2BF2CA7F00684135 /* FirebaseAppCheck in Frameworks */ = {isa = PBXBuildFile; productRef = 1C97166C2BF2CA7F00684135 /* FirebaseAppCheck */; };
 		1C9716712BF2D24C00684135 /* GoogleSignIn in Frameworks */ = {isa = PBXBuildFile; productRef = 1C9716702BF2D24C00684135 /* GoogleSignIn */; };
 		1C9716732BF2D24C00684135 /* GoogleSignInSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 1C9716722BF2D24C00684135 /* GoogleSignInSwift */; };
-		1C9716772BF2D2DA00684135 /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C9716762BF2D2DA00684135 /* UserData.swift */; };
 		1C9716792BF2D2FE00684135 /* AuthViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C9716782BF2D2FE00684135 /* AuthViewModel.swift */; };
 		1C97167B2BF2D34D00684135 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C97167A2BF2D34D00684135 /* LoginView.swift */; };
 		1C97167D2BF2ECA100684135 /* SignInWithAppleButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C97167C2BF2ECA100684135 /* SignInWithAppleButtonView.swift */; };
@@ -69,11 +173,116 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1C65A6222C0E2D4C00C04DFF /* UserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = UserData.swift; path = ../../../UserData.swift; sourceTree = "<group>"; };
+		1C65A6262C0E4D9B00C04DFF /* Avatar-Igloo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Avatar-Igloo.swift"; sourceTree = "<group>"; };
+		1C65A6282C0E4DE500C04DFF /* Tutorial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tutorial.swift; sourceTree = "<group>"; };
+		1C65A62A2C0E4E0B00C04DFF /* TabViewMain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewMain.swift; sourceTree = "<group>"; };
+		1C65A62C2C0E4E3800C04DFF /* SplashScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreen.swift; sourceTree = "<group>"; };
+		1C65A62E2C0E4E9700C04DFF /* HealthKitManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthKitManager.swift; sourceTree = "<group>"; };
+		1C65A6362C0E5A5500C04DFF /* SelfCareMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelfCareMainView.swift; sourceTree = "<group>"; };
+		1C65A6382C0E5AE800C04DFF /* SherpaTutorialBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SherpaTutorialBox.swift; sourceTree = "<group>"; };
+		1C65A63A2C0E5B1100C04DFF /* QuestionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionsView.swift; sourceTree = "<group>"; };
+		1C65A63C2C0E5B6200C04DFF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1C65A63E2C0E5BAE00C04DFF /* ConfettiView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfettiView.swift; sourceTree = "<group>"; };
+		1C65A6402C0E5C6000C04DFF /* P1-3_EmotionsScenario.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "P1-3_EmotionsScenario.swift"; sourceTree = "<group>"; };
+		1C65A6412C0E5C6000C04DFF /* P1-3_ScenarioQuiz.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "P1-3_ScenarioQuiz.swift"; sourceTree = "<group>"; };
+		1C65A6432C0E5C6000C04DFF /* P1-9_BoxBreathing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "P1-9_BoxBreathing.swift"; sourceTree = "<group>"; };
+		1C65A6442C0E5C6000C04DFF /* pkmdBoxBreathingEncoded.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = pkmdBoxBreathingEncoded.mov; sourceTree = "<group>"; };
+		1C65A6452C0E5C6000C04DFF /* pkmdMuscleExerciseEncoded.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = pkmdMuscleExerciseEncoded.mov; sourceTree = "<group>"; };
+		1C65A6472C0E5C6000C04DFF /* MuscleRelaxationExplanationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MuscleRelaxationExplanationView.swift; sourceTree = "<group>"; };
+		1C65A6492C0E5C6000C04DFF /* Minigame2View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Minigame2View.swift; sourceTree = "<group>"; };
+		1C65A64A2C0E5C6000C04DFF /* words.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = words.txt; sourceTree = "<group>"; };
+		1C65A64C2C0E5C6000C04DFF /* P1-1_Intro.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "P1-1_Intro.swift"; sourceTree = "<group>"; };
+		1C65A64D2C0E5C6000C04DFF /* P1-2_MentalHealthMod.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "P1-2_MentalHealthMod.swift"; sourceTree = "<group>"; };
+		1C65A64E2C0E5C6000C04DFF /* P1-4_StressModule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "P1-4_StressModule.swift"; sourceTree = "<group>"; };
+		1C65A64F2C0E5C6000C04DFF /* P1-5_StressTriggerMap.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "P1-5_StressTriggerMap.swift"; sourceTree = "<group>"; };
+		1C65A6502C0E5C6000C04DFF /* P1-6_PersonalQuestion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "P1-6_PersonalQuestion.swift"; sourceTree = "<group>"; };
+		1C65A6512C0E5C6000C04DFF /* P1-7_MindfulnessModule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "P1-7_MindfulnessModule.swift"; sourceTree = "<group>"; };
+		1C65A6522C0E5C6000C04DFF /* P1-8_ResourcesAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "P1-8_ResourcesAnimation.swift"; sourceTree = "<group>"; };
+		1C65A6532C0E5C6000C04DFF /* P1-10_LifestyleModule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "P1-10_LifestyleModule.swift"; sourceTree = "<group>"; };
+		1C65A6542C0E5C6000C04DFF /* P1-11_CauseEffectMap.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "P1-11_CauseEffectMap.swift"; sourceTree = "<group>"; };
+		1C65A6552C0E5C6000C04DFF /* P1-12_LifestyleQuestion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "P1-12_LifestyleQuestion.swift"; sourceTree = "<group>"; };
+		1C65A6562C0E5C6000C04DFF /* P1-13_BodyScan.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "P1-13_BodyScan.swift"; sourceTree = "<group>"; };
+		1C65A6572C0E5C6000C04DFF /* P1-14_Reflection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "P1-14_Reflection.swift"; sourceTree = "<group>"; };
+		1C65A6592C0E5C6000C04DFF /* P2-3_DefiningAnxietyScenario.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "P2-3_DefiningAnxietyScenario.swift"; sourceTree = "<group>"; };
+		1C65A65A2C0E5C6000C04DFF /* P2-3_ScenarioQuiz.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "P2-3_ScenarioQuiz.swift"; sourceTree = "<group>"; };
+		1C65A65C2C0E5C6000C04DFF /* BreathingExerciseView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BreathingExerciseView.swift; sourceTree = "<group>"; };
+		1C65A65D2C0E5C6000C04DFF /* Level3IntroView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Level3IntroView.swift; sourceTree = "<group>"; };
+		1C65A65E2C0E5C6000C04DFF /* pkmdTriangleEncoded.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = pkmdTriangleEncoded.mov; sourceTree = "<group>"; };
+		1C65A65F2C0E5C6000C04DFF /* SpriteKitUIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpriteKitUIView.swift; sourceTree = "<group>"; };
+		1C65A6622C0E5C6000C04DFF /* P2-1_AnxietyModule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "P2-1_AnxietyModule.swift"; sourceTree = "<group>"; };
+		1C65A6632C0E5C6000C04DFF /* P2-1_Intro.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "P2-1_Intro.swift"; sourceTree = "<group>"; };
+		1C65A6642C0E5C6000C04DFF /* P2-4_AnxietyTriggerMap.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "P2-4_AnxietyTriggerMap.swift"; sourceTree = "<group>"; };
+		1C65A6652C0E5C6000C04DFF /* P2-5_AnxietyWellnessQ.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "P2-5_AnxietyWellnessQ.swift"; sourceTree = "<group>"; };
+		1C65A6662C0E5C6000C04DFF /* P2-6_AnxietyModule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "P2-6_AnxietyModule.swift"; sourceTree = "<group>"; };
+		1C65A6672C0E5C6000C04DFF /* P2-7_ExperienceQ.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "P2-7_ExperienceQ.swift"; sourceTree = "<group>"; };
+		1C65A6682C0E5C6000C04DFF /* P2-8_4Sliders.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "P2-8_4Sliders.swift"; sourceTree = "<group>"; };
+		1C65A6692C0E5C6000C04DFF /* P2-9_GoalSetting.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "P2-9_GoalSetting.swift"; sourceTree = "<group>"; };
+		1C65A66A2C0E5C6000C04DFF /* P2-10_5Factors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "P2-10_5Factors.swift"; sourceTree = "<group>"; };
+		1C65A66B2C0E5C6000C04DFF /* P2-11_FeelingTimer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "P2-11_FeelingTimer.swift"; sourceTree = "<group>"; };
+		1C65A66C2C0E5C6000C04DFF /* P2-12_CopingModule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "P2-12_CopingModule.swift"; sourceTree = "<group>"; };
+		1C65A66D2C0E5C6000C04DFF /* P2-14_Reflection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "P2-14_Reflection.swift"; sourceTree = "<group>"; };
+		1C65A66E2C0E5C6000C04DFF /* PacMan.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PacMan.swift; sourceTree = "<group>"; };
+		1C65A6982C0E5C9F00C04DFF /* HomeDashboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeDashboard.swift; sourceTree = "<group>"; };
+		1C65A69A2C0E5CD500C04DFF /* JournalDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JournalDataManager.swift; sourceTree = "<group>"; };
+		1C65A69B2C0E5CD500C04DFF /* JournalDetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JournalDetailView.swift; sourceTree = "<group>"; };
+		1C65A69C2C0E5CD500C04DFF /* JournalEntriesView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JournalEntriesView.swift; sourceTree = "<group>"; };
+		1C65A69D2C0E5CD500C04DFF /* JournalEntry.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JournalEntry.swift; sourceTree = "<group>"; };
+		1C65A69E2C0E5CD500C04DFF /* JournalView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JournalView.swift; sourceTree = "<group>"; };
+		1C65A6A52C0E5D1600C04DFF /* MessageBubble.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageBubble.swift; sourceTree = "<group>"; };
+		1C65A6A72C0E5D1600C04DFF /* ChatView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatView.swift; sourceTree = "<group>"; };
+		1C65A6AA2C0E5D1600C04DFF /* ResourcesToUtilize.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResourcesToUtilize.swift; sourceTree = "<group>"; };
+		1C65A6AF2C0E5D7600C04DFF /* AnxietyCommunityView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnxietyCommunityView.swift; sourceTree = "<group>"; };
+		1C65A6B02C0E5D7600C04DFF /* CommunitiesMainView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommunitiesMainView.swift; sourceTree = "<group>"; };
+		1C65A6B12C0E5D7600C04DFF /* CommunityTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommunityTest.swift; sourceTree = "<group>"; };
+		1C65A6B22C0E5D7600C04DFF /* UserProfileView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserProfileView.swift; sourceTree = "<group>"; };
+		1C65A6B82C0E717B00C04DFF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1C65A6BA2C0E728D00C04DFF /* Multisection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Multisection.swift; sourceTree = "<group>"; };
+		1C65A6BE2C0E73D300C04DFF /* Sherpa.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sherpa.swift; sourceTree = "<group>"; };
+		1C65A6C02C0E73ED00C04DFF /* SpeechBubble.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechBubble.swift; sourceTree = "<group>"; };
+		1C65A6C22C0E756100C04DFF /* InteractiveViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InteractiveViewModel.swift; sourceTree = "<group>"; };
+		1C65A6C42C0E778600C04DFF /* L2SherpaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = L2SherpaView.swift; sourceTree = "<group>"; };
+		1C65A6C62C0E77B800C04DFF /* MuscleRelaxationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MuscleRelaxationView.swift; sourceTree = "<group>"; };
+		1C65A6C82C0E77B800C04DFF /* AnxietyQuiz.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnxietyQuiz.swift; sourceTree = "<group>"; };
+		1C65A6C92C0E77B800C04DFF /* InventoryView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InventoryView.swift; sourceTree = "<group>"; };
+		1C65A6CA2C0E77B800C04DFF /* StoreView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoreView.swift; sourceTree = "<group>"; };
+		1C65A6CC2C0E77B800C04DFF /* AnimatedSpeechBubble.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimatedSpeechBubble.swift; sourceTree = "<group>"; };
+		1C65A6CD2C0E77B800C04DFF /* AnimatedTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimatedTextView.swift; sourceTree = "<group>"; };
+		1C65A6CE2C0E77B800C04DFF /* Background.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Background.swift; sourceTree = "<group>"; };
+		1C65A6CF2C0E77B800C04DFF /* MultiSectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MultiSectionView.swift; sourceTree = "<group>"; };
+		1C65A6D02C0E77B800C04DFF /* SherpaContinue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SherpaContinue.swift; sourceTree = "<group>"; };
+		1C65A6D32C0E77B800C04DFF /* SymptomsQuizView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SymptomsQuizView.swift; sourceTree = "<group>"; };
+		1C65A6D42C0E77B800C04DFF /* TimerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimerView.swift; sourceTree = "<group>"; };
+		1C65A6D62C0E77B800C04DFF /* L2QuizResponseView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = L2QuizResponseView.swift; sourceTree = "<group>"; };
+		1C65A6D72C0E77B800C04DFF /* L2SherpaChatView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = L2SherpaChatView.swift; sourceTree = "<group>"; };
+		1C65A6D82C0E77B800C04DFF /* Level2FlavorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Level2FlavorView.swift; sourceTree = "<group>"; };
+		1C65A6D92C0E77B800C04DFF /* PhysImpactsAnxietyView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhysImpactsAnxietyView.swift; sourceTree = "<group>"; };
+		1C65A6DA2C0E77B800C04DFF /* ReducingAnxietyView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReducingAnxietyView.swift; sourceTree = "<group>"; };
+		1C65A6DB2C0E77B800C04DFF /* WellnessQ2View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WellnessQ2View.swift; sourceTree = "<group>"; };
+		1C65A6DC2C0E77B800C04DFF /* WellnessQ3View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WellnessQ3View.swift; sourceTree = "<group>"; };
+		1C65A6DD2C0E77B800C04DFF /* WindsLouderFlavorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WindsLouderFlavorView.swift; sourceTree = "<group>"; };
+		1C65A6DF2C0E77B800C04DFF /* Level2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Level2.swift; sourceTree = "<group>"; };
+		1C65A6E02C0E77B800C04DFF /* Level2Complete.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Level2Complete.swift; sourceTree = "<group>"; };
+		1C65A6E12C0E77B800C04DFF /* PhysicalAnxietyQuiz.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhysicalAnxietyQuiz.swift; sourceTree = "<group>"; };
+		1C65A6E22C0E77B800C04DFF /* SMARTGoalSettingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SMARTGoalSettingView.swift; sourceTree = "<group>"; };
+		1C65A6E32C0E77B800C04DFF /* WindsFlavorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WindsFlavorView.swift; sourceTree = "<group>"; };
+		1C65A6E62C0E77B800C04DFF /* CurrentToNewHabits.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrentToNewHabits.swift; sourceTree = "<group>"; };
+		1C65A6E72C0E77B800C04DFF /* ScenarioQuizView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScenarioQuizView.swift; sourceTree = "<group>"; };
+		1C65A6E92C0E77B800C04DFF /* ResilienceChecklistView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResilienceChecklistView.swift; sourceTree = "<group>"; };
+		1C65A6EC2C0E77B800C04DFF /* Level2MapView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Level2MapView.swift; sourceTree = "<group>"; };
+		1C65A6ED2C0E77B800C04DFF /* LevelOneMapView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LevelOneMapView.swift; sourceTree = "<group>"; };
+		1C65A6EF2C0E77B800C04DFF /* L1ScenarioQuiz.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = L1ScenarioQuiz.swift; sourceTree = "<group>"; };
+		1C65A6F02C0E77B800C04DFF /* ScenarioQuizTemplate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScenarioQuizTemplate.swift; sourceTree = "<group>"; };
+		1C65A6F12C0E77B800C04DFF /* ScenarioTemplate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScenarioTemplate.swift; sourceTree = "<group>"; };
+		1C65A6F22C0E77B800C04DFF /* SherpaAlone.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SherpaAlone.swift; sourceTree = "<group>"; };
+		1C65A6F32C0E77B800C04DFF /* SherpaTalking.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SherpaTalking.swift; sourceTree = "<group>"; };
+		1C65A6F52C0E77B800C04DFF /* Structs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Structs.swift; sourceTree = "<group>"; };
+		1C65A71A2C0E7AE200C04DFF /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		1C65A71C2C0E7B0C00C04DFF /* FeedbackForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedbackForm.swift; sourceTree = "<group>"; };
 		1C9715F62BF2BFE700684135 /* peakmind-pt2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "peakmind-pt2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C9715F92BF2BFE700684135 /* peakmind_pt2App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = peakmind_pt2App.swift; sourceTree = "<group>"; };
 		1C9715FB2BF2BFE700684135 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		1C9715FD2BF2BFE800684135 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		1C9716002BF2BFE800684135 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		1C9716062BF2BFE800684135 /* peakmind-pt2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "peakmind-pt2Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C97160A2BF2BFE800684135 /* peakmind_pt2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = peakmind_pt2Tests.swift; sourceTree = "<group>"; };
 		1C9716102BF2BFE800684135 /* peakmind-pt2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "peakmind-pt2UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -81,7 +290,6 @@
 		1C9716162BF2BFE800684135 /* peakmind_pt2UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = peakmind_pt2UITestsLaunchTests.swift; sourceTree = "<group>"; };
 		1C97166A2BF2C35B00684135 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		1C97166E2BF2CABA00684135 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
-		1C9716762BF2D2DA00684135 /* UserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
 		1C9716782BF2D2FE00684135 /* AuthViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewModel.swift; sourceTree = "<group>"; };
 		1C97167A2BF2D34D00684135 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		1C97167C2BF2ECA100684135 /* SignInWithAppleButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInWithAppleButtonView.swift; sourceTree = "<group>"; };
@@ -143,9 +351,331 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1C65A6422C0E5C6000C04DFF /* P1-3_EmotionsScenario */ = {
+			isa = PBXGroup;
+			children = (
+				1C65A6402C0E5C6000C04DFF /* P1-3_EmotionsScenario.swift */,
+				1C65A6412C0E5C6000C04DFF /* P1-3_ScenarioQuiz.swift */,
+			);
+			path = "P1-3_EmotionsScenario";
+			sourceTree = "<group>";
+		};
+		1C65A6462C0E5C6000C04DFF /* P1-9_BoxBreathing */ = {
+			isa = PBXGroup;
+			children = (
+				1C65A6432C0E5C6000C04DFF /* P1-9_BoxBreathing.swift */,
+				1C65A6442C0E5C6000C04DFF /* pkmdBoxBreathingEncoded.mov */,
+				1C65A6452C0E5C6000C04DFF /* pkmdMuscleExerciseEncoded.mov */,
+			);
+			path = "P1-9_BoxBreathing";
+			sourceTree = "<group>";
+		};
+		1C65A6482C0E5C6000C04DFF /* P1-13_MuscleRelaxation */ = {
+			isa = PBXGroup;
+			children = (
+				1C65A6472C0E5C6000C04DFF /* MuscleRelaxationExplanationView.swift */,
+			);
+			path = "P1-13_MuscleRelaxation";
+			sourceTree = "<group>";
+		};
+		1C65A64B2C0E5C6000C04DFF /* P1-15_MiniGame */ = {
+			isa = PBXGroup;
+			children = (
+				1C65A6492C0E5C6000C04DFF /* Minigame2View.swift */,
+				1C65A64A2C0E5C6000C04DFF /* words.txt */,
+			);
+			path = "P1-15_MiniGame";
+			sourceTree = "<group>";
+		};
+		1C65A6582C0E5C6000C04DFF /* PHASE 1 */ = {
+			isa = PBXGroup;
+			children = (
+				1C65A6422C0E5C6000C04DFF /* P1-3_EmotionsScenario */,
+				1C65A6462C0E5C6000C04DFF /* P1-9_BoxBreathing */,
+				1C65A6482C0E5C6000C04DFF /* P1-13_MuscleRelaxation */,
+				1C65A64B2C0E5C6000C04DFF /* P1-15_MiniGame */,
+				1C65A64C2C0E5C6000C04DFF /* P1-1_Intro.swift */,
+				1C65A64D2C0E5C6000C04DFF /* P1-2_MentalHealthMod.swift */,
+				1C65A64E2C0E5C6000C04DFF /* P1-4_StressModule.swift */,
+				1C65A64F2C0E5C6000C04DFF /* P1-5_StressTriggerMap.swift */,
+				1C65A6502C0E5C6000C04DFF /* P1-6_PersonalQuestion.swift */,
+				1C65A6512C0E5C6000C04DFF /* P1-7_MindfulnessModule.swift */,
+				1C65A6522C0E5C6000C04DFF /* P1-8_ResourcesAnimation.swift */,
+				1C65A6532C0E5C6000C04DFF /* P1-10_LifestyleModule.swift */,
+				1C65A6542C0E5C6000C04DFF /* P1-11_CauseEffectMap.swift */,
+				1C65A6552C0E5C6000C04DFF /* P1-12_LifestyleQuestion.swift */,
+				1C65A6562C0E5C6000C04DFF /* P1-13_BodyScan.swift */,
+				1C65A6572C0E5C6000C04DFF /* P1-14_Reflection.swift */,
+			);
+			path = "PHASE 1";
+			sourceTree = "<group>";
+		};
+		1C65A65B2C0E5C6000C04DFF /* P2-3_DefiningAnxietyScenario */ = {
+			isa = PBXGroup;
+			children = (
+				1C65A6592C0E5C6000C04DFF /* P2-3_DefiningAnxietyScenario.swift */,
+				1C65A65A2C0E5C6000C04DFF /* P2-3_ScenarioQuiz.swift */,
+			);
+			path = "P2-3_DefiningAnxietyScenario";
+			sourceTree = "<group>";
+		};
+		1C65A6602C0E5C6000C04DFF /* James */ = {
+			isa = PBXGroup;
+			children = (
+				1C65A65C2C0E5C6000C04DFF /* BreathingExerciseView.swift */,
+				1C65A65D2C0E5C6000C04DFF /* Level3IntroView.swift */,
+				1C65A65E2C0E5C6000C04DFF /* pkmdTriangleEncoded.mov */,
+				1C65A65F2C0E5C6000C04DFF /* SpriteKitUIView.swift */,
+			);
+			path = James;
+			sourceTree = "<group>";
+		};
+		1C65A6612C0E5C6000C04DFF /* P2-13_478Breathing */ = {
+			isa = PBXGroup;
+			children = (
+				1C65A6602C0E5C6000C04DFF /* James */,
+			);
+			path = "P2-13_478Breathing";
+			sourceTree = "<group>";
+		};
+		1C65A66F2C0E5C6000C04DFF /* PHASE 2 */ = {
+			isa = PBXGroup;
+			children = (
+				1C65A65B2C0E5C6000C04DFF /* P2-3_DefiningAnxietyScenario */,
+				1C65A6612C0E5C6000C04DFF /* P2-13_478Breathing */,
+				1C65A6622C0E5C6000C04DFF /* P2-1_AnxietyModule.swift */,
+				1C65A6632C0E5C6000C04DFF /* P2-1_Intro.swift */,
+				1C65A6642C0E5C6000C04DFF /* P2-4_AnxietyTriggerMap.swift */,
+				1C65A6652C0E5C6000C04DFF /* P2-5_AnxietyWellnessQ.swift */,
+				1C65A6662C0E5C6000C04DFF /* P2-6_AnxietyModule.swift */,
+				1C65A6672C0E5C6000C04DFF /* P2-7_ExperienceQ.swift */,
+				1C65A6682C0E5C6000C04DFF /* P2-8_4Sliders.swift */,
+				1C65A6692C0E5C6000C04DFF /* P2-9_GoalSetting.swift */,
+				1C65A66A2C0E5C6000C04DFF /* P2-10_5Factors.swift */,
+				1C65A66B2C0E5C6000C04DFF /* P2-11_FeelingTimer.swift */,
+				1C65A66C2C0E5C6000C04DFF /* P2-12_CopingModule.swift */,
+				1C65A66D2C0E5C6000C04DFF /* P2-14_Reflection.swift */,
+				1C65A66E2C0E5C6000C04DFF /* PacMan.swift */,
+			);
+			path = "PHASE 2";
+			sourceTree = "<group>";
+		};
+		1C65A6702C0E5C6000C04DFF /* UPDATED GAME PHASES */ = {
+			isa = PBXGroup;
+			children = (
+				1C65A6582C0E5C6000C04DFF /* PHASE 1 */,
+				1C65A66F2C0E5C6000C04DFF /* PHASE 2 */,
+			);
+			path = "UPDATED GAME PHASES";
+			sourceTree = "<group>";
+		};
+		1C65A69F2C0E5CD500C04DFF /* Journal */ = {
+			isa = PBXGroup;
+			children = (
+				1C65A69A2C0E5CD500C04DFF /* JournalDataManager.swift */,
+				1C65A69B2C0E5CD500C04DFF /* JournalDetailView.swift */,
+				1C65A69C2C0E5CD500C04DFF /* JournalEntriesView.swift */,
+				1C65A69D2C0E5CD500C04DFF /* JournalEntry.swift */,
+				1C65A69E2C0E5CD500C04DFF /* JournalView.swift */,
+			);
+			path = Journal;
+			sourceTree = "<group>";
+		};
+		1C65A6A62C0E5D1600C04DFF /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				1C65A6A52C0E5D1600C04DFF /* MessageBubble.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		1C65A6A82C0E5D1600C04DFF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1C65A6A72C0E5D1600C04DFF /* ChatView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1C65A6A92C0E5D1600C04DFF /* Chat */ = {
+			isa = PBXGroup;
+			children = (
+				1C65A6A62C0E5D1600C04DFF /* Components */,
+				1C65A6A82C0E5D1600C04DFF /* View */,
+				1C65A6BA2C0E728D00C04DFF /* Multisection.swift */,
+			);
+			path = Chat;
+			sourceTree = "<group>";
+		};
+		1C65A6AB2C0E5D1600C04DFF /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1C65A6AA2C0E5D1600C04DFF /* ResourcesToUtilize.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		1C65A6B32C0E5D7600C04DFF /* Communities */ = {
+			isa = PBXGroup;
+			children = (
+				1C65A6AF2C0E5D7600C04DFF /* AnxietyCommunityView.swift */,
+				1C65A6B02C0E5D7600C04DFF /* CommunitiesMainView.swift */,
+				1C65A6B12C0E5D7600C04DFF /* CommunityTest.swift */,
+				1C65A6B22C0E5D7600C04DFF /* UserProfileView.swift */,
+			);
+			path = Communities;
+			sourceTree = "<group>";
+		};
+		1C65A6C72C0E77B800C04DFF /* James */ = {
+			isa = PBXGroup;
+			children = (
+				1C65A6C62C0E77B800C04DFF /* MuscleRelaxationView.swift */,
+			);
+			path = James;
+			sourceTree = "<group>";
+		};
+		1C65A6CB2C0E77B800C04DFF /* Raj */ = {
+			isa = PBXGroup;
+			children = (
+				1C65A6C82C0E77B800C04DFF /* AnxietyQuiz.swift */,
+				1C65A6C92C0E77B800C04DFF /* InventoryView.swift */,
+				1C65A6CA2C0E77B800C04DFF /* StoreView.swift */,
+			);
+			path = Raj;
+			sourceTree = "<group>";
+		};
+		1C65A6D12C0E77B800C04DFF /* Rina */ = {
+			isa = PBXGroup;
+			children = (
+				1C65A6CC2C0E77B800C04DFF /* AnimatedSpeechBubble.swift */,
+				1C65A6CD2C0E77B800C04DFF /* AnimatedTextView.swift */,
+				1C65A6CE2C0E77B800C04DFF /* Background.swift */,
+				1C65A6CF2C0E77B800C04DFF /* MultiSectionView.swift */,
+				1C65A6D02C0E77B800C04DFF /* SherpaContinue.swift */,
+			);
+			path = Rina;
+			sourceTree = "<group>";
+		};
+		1C65A6D22C0E77B800C04DFF /* Level 1 */ = {
+			isa = PBXGroup;
+			children = (
+				1C65A6C72C0E77B800C04DFF /* James */,
+				1C65A6CB2C0E77B800C04DFF /* Raj */,
+				1C65A6D12C0E77B800C04DFF /* Rina */,
+			);
+			path = "Level 1";
+			sourceTree = "<group>";
+		};
+		1C65A6D52C0E77B800C04DFF /* James */ = {
+			isa = PBXGroup;
+			children = (
+				1C65A6D32C0E77B800C04DFF /* SymptomsQuizView.swift */,
+				1C65A6D42C0E77B800C04DFF /* TimerView.swift */,
+			);
+			path = James;
+			sourceTree = "<group>";
+		};
+		1C65A6DE2C0E77B800C04DFF /* Mikey */ = {
+			isa = PBXGroup;
+			children = (
+				1C65A6D62C0E77B800C04DFF /* L2QuizResponseView.swift */,
+				1C65A6D72C0E77B800C04DFF /* L2SherpaChatView.swift */,
+				1C65A6D82C0E77B800C04DFF /* Level2FlavorView.swift */,
+				1C65A6D92C0E77B800C04DFF /* PhysImpactsAnxietyView.swift */,
+				1C65A6DA2C0E77B800C04DFF /* ReducingAnxietyView.swift */,
+				1C65A6DB2C0E77B800C04DFF /* WellnessQ2View.swift */,
+				1C65A6DC2C0E77B800C04DFF /* WellnessQ3View.swift */,
+				1C65A6DD2C0E77B800C04DFF /* WindsLouderFlavorView.swift */,
+			);
+			path = Mikey;
+			sourceTree = "<group>";
+		};
+		1C65A6E42C0E77B800C04DFF /* Raj */ = {
+			isa = PBXGroup;
+			children = (
+				1C65A6DF2C0E77B800C04DFF /* Level2.swift */,
+				1C65A6E02C0E77B800C04DFF /* Level2Complete.swift */,
+				1C65A6E12C0E77B800C04DFF /* PhysicalAnxietyQuiz.swift */,
+				1C65A6E22C0E77B800C04DFF /* SMARTGoalSettingView.swift */,
+				1C65A6E32C0E77B800C04DFF /* WindsFlavorView.swift */,
+			);
+			path = Raj;
+			sourceTree = "<group>";
+		};
+		1C65A6E52C0E77B800C04DFF /* Level 2 */ = {
+			isa = PBXGroup;
+			children = (
+				1C65A6D52C0E77B800C04DFF /* James */,
+				1C65A6DE2C0E77B800C04DFF /* Mikey */,
+				1C65A6E42C0E77B800C04DFF /* Raj */,
+			);
+			path = "Level 2";
+			sourceTree = "<group>";
+		};
+		1C65A6E82C0E77B800C04DFF /* Level 3 */ = {
+			isa = PBXGroup;
+			children = (
+				1C65A6E62C0E77B800C04DFF /* CurrentToNewHabits.swift */,
+				1C65A6E72C0E77B800C04DFF /* ScenarioQuizView.swift */,
+			);
+			path = "Level 3";
+			sourceTree = "<group>";
+		};
+		1C65A6EA2C0E77B800C04DFF /* James */ = {
+			isa = PBXGroup;
+			children = (
+				1C65A6E92C0E77B800C04DFF /* ResilienceChecklistView.swift */,
+			);
+			path = James;
+			sourceTree = "<group>";
+		};
+		1C65A6EB2C0E77B800C04DFF /* Level 4 */ = {
+			isa = PBXGroup;
+			children = (
+				1C65A6EA2C0E77B800C04DFF /* James */,
+			);
+			path = "Level 4";
+			sourceTree = "<group>";
+		};
+		1C65A6EE2C0E77B800C04DFF /* Level Maps */ = {
+			isa = PBXGroup;
+			children = (
+				1C65A6EC2C0E77B800C04DFF /* Level2MapView.swift */,
+				1C65A6ED2C0E77B800C04DFF /* LevelOneMapView.swift */,
+			);
+			path = "Level Maps";
+			sourceTree = "<group>";
+		};
+		1C65A6F42C0E77B800C04DFF /* Scenario Template */ = {
+			isa = PBXGroup;
+			children = (
+				1C65A6EF2C0E77B800C04DFF /* L1ScenarioQuiz.swift */,
+				1C65A6F02C0E77B800C04DFF /* ScenarioQuizTemplate.swift */,
+				1C65A6F12C0E77B800C04DFF /* ScenarioTemplate.swift */,
+				1C65A6F22C0E77B800C04DFF /* SherpaAlone.swift */,
+				1C65A6F32C0E77B800C04DFF /* SherpaTalking.swift */,
+			);
+			path = "Scenario Template";
+			sourceTree = "<group>";
+		};
+		1C65A6F62C0E77B800C04DFF /* Game Level Screens */ = {
+			isa = PBXGroup;
+			children = (
+				1C65A6D22C0E77B800C04DFF /* Level 1 */,
+				1C65A6E52C0E77B800C04DFF /* Level 2 */,
+				1C65A6E82C0E77B800C04DFF /* Level 3 */,
+				1C65A6EB2C0E77B800C04DFF /* Level 4 */,
+				1C65A6EE2C0E77B800C04DFF /* Level Maps */,
+				1C65A6F42C0E77B800C04DFF /* Scenario Template */,
+				1C65A6F52C0E77B800C04DFF /* Structs.swift */,
+			);
+			path = "Game Level Screens";
+			sourceTree = "<group>";
+		};
 		1C9715ED2BF2BFE700684135 = {
 			isa = PBXGroup;
 			children = (
+				1C65A6C22C0E756100C04DFF /* InteractiveViewModel.swift */,
 				1C9715F82BF2BFE700684135 /* peakmind-pt2 */,
 				1C9716092BF2BFE800684135 /* peakmind-pt2Tests */,
 				1C9716132BF2BFE800684135 /* peakmind-pt2UITests */,
@@ -173,6 +703,28 @@
 				1C9716752BF2D2D000684135 /* Model */,
 				1C9715F92BF2BFE700684135 /* peakmind_pt2App.swift */,
 				1C9715FB2BF2BFE700684135 /* ContentView.swift */,
+				1C65A62A2C0E4E0B00C04DFF /* TabViewMain.swift */,
+				1C65A6B32C0E5D7600C04DFF /* Communities */,
+				1C65A6262C0E4D9B00C04DFF /* Avatar-Igloo.swift */,
+				1C65A71A2C0E7AE200C04DFF /* ProfileView.swift */,
+				1C65A71C2C0E7B0C00C04DFF /* FeedbackForm.swift */,
+				1C65A6C42C0E778600C04DFF /* L2SherpaView.swift */,
+				1C65A6F62C0E77B800C04DFF /* Game Level Screens */,
+				1C65A6282C0E4DE500C04DFF /* Tutorial.swift */,
+				1C65A62E2C0E4E9700C04DFF /* HealthKitManager.swift */,
+				1C65A6982C0E5C9F00C04DFF /* HomeDashboard.swift */,
+				1C65A6A92C0E5D1600C04DFF /* Chat */,
+				1C65A6AB2C0E5D1600C04DFF /* Resources */,
+				1C65A69F2C0E5CD500C04DFF /* Journal */,
+				1C65A62C2C0E4E3800C04DFF /* SplashScreen.swift */,
+				1C65A6702C0E5C6000C04DFF /* UPDATED GAME PHASES */,
+				1C65A6362C0E5A5500C04DFF /* SelfCareMainView.swift */,
+				1C65A63E2C0E5BAE00C04DFF /* ConfettiView.swift */,
+				1C65A63C2C0E5B6200C04DFF /* Assets.xcassets */,
+				1C65A63A2C0E5B1100C04DFF /* QuestionsView.swift */,
+				1C65A6382C0E5AE800C04DFF /* SherpaTutorialBox.swift */,
+				1C65A6BE2C0E73D300C04DFF /* Sherpa.swift */,
+				1C65A6C02C0E73ED00C04DFF /* SpeechBubble.swift */,
 				1C9716262BF2C13400684135 /* Authentication */,
 				1C9715FD2BF2BFE800684135 /* Assets.xcassets */,
 				1C9715FF2BF2BFE800684135 /* Preview Content */,
@@ -183,7 +735,7 @@
 		1C9715FF2BF2BFE800684135 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				1C9716002BF2BFE800684135 /* Preview Assets.xcassets */,
+				1C65A6B82C0E717B00C04DFF /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -225,7 +777,7 @@
 		1C9716752BF2D2D000684135 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				1C9716762BF2D2DA00684135 /* UserData.swift */,
+				1C65A6222C0E2D4C00C04DFF /* UserData.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -370,8 +922,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1C65A6B92C0E717B00C04DFF /* Preview Assets.xcassets in Resources */,
+				1C65A6752C0E5C6100C04DFF /* pkmdMuscleExerciseEncoded.mov in Resources */,
+				1C65A6782C0E5C6100C04DFF /* words.txt in Resources */,
+				1C65A6742C0E5C6100C04DFF /* pkmdBoxBreathingEncoded.mov in Resources */,
+				1C65A6892C0E5C6100C04DFF /* pkmdTriangleEncoded.mov in Resources */,
 				1C97166B2BF2C35B00684135 /* GoogleService-Info.plist in Resources */,
-				1C9716012BF2BFE800684135 /* Preview Assets.xcassets in Resources */,
+				1C65A63D2C0E5B6200C04DFF /* Assets.xcassets in Resources */,
 				1C9715FE2BF2BFE800684135 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -397,12 +954,111 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1C65A6952C0E5C6100C04DFF /* P2-12_CopingModule.swift in Sources */,
+				1C65A6812C0E5C6100C04DFF /* P1-11_CauseEffectMap.swift in Sources */,
+				1C65A68E2C0E5C6100C04DFF /* P2-5_AnxietyWellnessQ.swift in Sources */,
+				1C65A6A42C0E5CD500C04DFF /* JournalView.swift in Sources */,
+				1C65A62D2C0E4E3800C04DFF /* SplashScreen.swift in Sources */,
+				1C65A7022C0E77B800C04DFF /* L2QuizResponseView.swift in Sources */,
+				1C65A6B72C0E5D7600C04DFF /* UserProfileView.swift in Sources */,
+				1C65A67A2C0E5C6100C04DFF /* P1-2_MentalHealthMod.swift in Sources */,
+				1C65A6AC2C0E5D1600C04DFF /* MessageBubble.swift in Sources */,
+				1C65A6F72C0E77B800C04DFF /* MuscleRelaxationView.swift in Sources */,
+				1C65A68C2C0E5C6100C04DFF /* P2-1_Intro.swift in Sources */,
+				1C65A6712C0E5C6100C04DFF /* P1-3_EmotionsScenario.swift in Sources */,
+				1C65A6FD2C0E77B800C04DFF /* Background.swift in Sources */,
+				1C65A6722C0E5C6100C04DFF /* P1-3_ScenarioQuiz.swift in Sources */,
+				1C65A68B2C0E5C6100C04DFF /* P2-1_AnxietyModule.swift in Sources */,
+				1C65A6FA2C0E77B800C04DFF /* StoreView.swift in Sources */,
+				1C65A6822C0E5C6100C04DFF /* P1-12_LifestyleQuestion.swift in Sources */,
+				1C65A7092C0E77B800C04DFF /* WindsLouderFlavorView.swift in Sources */,
+				1C65A7002C0E77B800C04DFF /* SymptomsQuizView.swift in Sources */,
+				1C65A68D2C0E5C6100C04DFF /* P2-4_AnxietyTriggerMap.swift in Sources */,
+				1C65A67C2C0E5C6100C04DFF /* P1-5_StressTriggerMap.swift in Sources */,
+				1C65A6AE2C0E5D1600C04DFF /* ResourcesToUtilize.swift in Sources */,
+				1C65A6392C0E5AE800C04DFF /* SherpaTutorialBox.swift in Sources */,
+				1C65A7102C0E77B800C04DFF /* ScenarioQuizView.swift in Sources */,
+				1C65A6872C0E5C6100C04DFF /* BreathingExerciseView.swift in Sources */,
+				1C65A6932C0E5C6100C04DFF /* P2-10_5Factors.swift in Sources */,
+				1C65A6882C0E5C6100C04DFF /* Level3IntroView.swift in Sources */,
+				1C65A6B62C0E5D7600C04DFF /* CommunityTest.swift in Sources */,
+				1C65A6792C0E5C6100C04DFF /* P1-1_Intro.swift in Sources */,
+				1C65A6F92C0E77B800C04DFF /* InventoryView.swift in Sources */,
+				1C65A70C2C0E77B800C04DFF /* PhysicalAnxietyQuiz.swift in Sources */,
+				1C65A6842C0E5C6100C04DFF /* P1-14_Reflection.swift in Sources */,
+				1C65A6FC2C0E77B800C04DFF /* AnimatedTextView.swift in Sources */,
+				1C65A67B2C0E5C6100C04DFF /* P1-4_StressModule.swift in Sources */,
 				1C9716792BF2D2FE00684135 /* AuthViewModel.swift in Sources */,
-				1C9716772BF2D2DA00684135 /* UserData.swift in Sources */,
+				1C65A6972C0E5C6100C04DFF /* PacMan.swift in Sources */,
+				1C65A7062C0E77B800C04DFF /* ReducingAnxietyView.swift in Sources */,
+				1C65A7172C0E77B800C04DFF /* SherpaAlone.swift in Sources */,
+				1C65A7082C0E77B800C04DFF /* WellnessQ3View.swift in Sources */,
+				1C65A68A2C0E5C6100C04DFF /* SpriteKitUIView.swift in Sources */,
+				1C65A71B2C0E7AE200C04DFF /* ProfileView.swift in Sources */,
+				1C65A6FE2C0E77B800C04DFF /* MultiSectionView.swift in Sources */,
+				1C65A6232C0E2D4C00C04DFF /* UserData.swift in Sources */,
+				1C65A71D2C0E7B0C00C04DFF /* FeedbackForm.swift in Sources */,
+				1C65A7152C0E77B800C04DFF /* ScenarioQuizTemplate.swift in Sources */,
+				1C65A7032C0E77B800C04DFF /* L2SherpaChatView.swift in Sources */,
+				1C65A6732C0E5C6100C04DFF /* P1-9_BoxBreathing.swift in Sources */,
+				1C65A67D2C0E5C6100C04DFF /* P1-6_PersonalQuestion.swift in Sources */,
+				1C65A6BB2C0E728D00C04DFF /* Multisection.swift in Sources */,
+				1C65A6992C0E5C9F00C04DFF /* HomeDashboard.swift in Sources */,
+				1C65A6FF2C0E77B800C04DFF /* SherpaContinue.swift in Sources */,
+				1C65A6912C0E5C6100C04DFF /* P2-8_4Sliders.swift in Sources */,
+				1C65A6B52C0E5D7600C04DFF /* CommunitiesMainView.swift in Sources */,
+				1C65A6962C0E5C6100C04DFF /* P2-14_Reflection.swift in Sources */,
+				1C65A7182C0E77B800C04DFF /* SherpaTalking.swift in Sources */,
+				1C65A70E2C0E77B800C04DFF /* WindsFlavorView.swift in Sources */,
+				1C65A6862C0E5C6100C04DFF /* P2-3_ScenarioQuiz.swift in Sources */,
+				1C65A6B42C0E5D7600C04DFF /* AnxietyCommunityView.swift in Sources */,
+				1C65A63F2C0E5BAE00C04DFF /* ConfettiView.swift in Sources */,
+				1C65A6C52C0E778600C04DFF /* L2SherpaView.swift in Sources */,
+				1C65A6762C0E5C6100C04DFF /* MuscleRelaxationExplanationView.swift in Sources */,
+				1C65A7052C0E77B800C04DFF /* PhysImpactsAnxietyView.swift in Sources */,
 				1C9715FC2BF2BFE700684135 /* ContentView.swift in Sources */,
+				1C65A67F2C0E5C6100C04DFF /* P1-8_ResourcesAnimation.swift in Sources */,
+				1C65A63B2C0E5B1100C04DFF /* QuestionsView.swift in Sources */,
+				1C65A6FB2C0E77B800C04DFF /* AnimatedSpeechBubble.swift in Sources */,
 				1C97167D2BF2ECA100684135 /* SignInWithAppleButtonView.swift in Sources */,
+				1C65A6272C0E4D9B00C04DFF /* Avatar-Igloo.swift in Sources */,
+				1C65A6902C0E5C6100C04DFF /* P2-7_ExperienceQ.swift in Sources */,
+				1C65A6F82C0E77B800C04DFF /* AnxietyQuiz.swift in Sources */,
+				1C65A7042C0E77B800C04DFF /* Level2FlavorView.swift in Sources */,
+				1C65A67E2C0E5C6100C04DFF /* P1-7_MindfulnessModule.swift in Sources */,
+				1C65A62B2C0E4E0B00C04DFF /* TabViewMain.swift in Sources */,
+				1C65A6942C0E5C6100C04DFF /* P2-11_FeelingTimer.swift in Sources */,
+				1C65A6AD2C0E5D1600C04DFF /* ChatView.swift in Sources */,
+				1C65A68F2C0E5C6100C04DFF /* P2-6_AnxietyModule.swift in Sources */,
+				1C65A6292C0E4DE500C04DFF /* Tutorial.swift in Sources */,
+				1C65A7112C0E77B800C04DFF /* ResilienceChecklistView.swift in Sources */,
+				1C65A6A22C0E5CD500C04DFF /* JournalEntriesView.swift in Sources */,
+				1C65A62F2C0E4E9700C04DFF /* HealthKitManager.swift in Sources */,
+				1C65A6C32C0E756100C04DFF /* InteractiveViewModel.swift in Sources */,
+				1C65A70B2C0E77B800C04DFF /* Level2Complete.swift in Sources */,
+				1C65A6772C0E5C6100C04DFF /* Minigame2View.swift in Sources */,
+				1C65A6922C0E5C6100C04DFF /* P2-9_GoalSetting.swift in Sources */,
+				1C65A7072C0E77B800C04DFF /* WellnessQ2View.swift in Sources */,
+				1C65A7142C0E77B800C04DFF /* L1ScenarioQuiz.swift in Sources */,
+				1C65A6C12C0E73ED00C04DFF /* SpeechBubble.swift in Sources */,
+				1C65A70D2C0E77B800C04DFF /* SMARTGoalSettingView.swift in Sources */,
+				1C65A6832C0E5C6100C04DFF /* P1-13_BodyScan.swift in Sources */,
+				1C65A7122C0E77B800C04DFF /* Level2MapView.swift in Sources */,
 				1C97167B2BF2D34D00684135 /* LoginView.swift in Sources */,
+				1C65A7192C0E77B800C04DFF /* Structs.swift in Sources */,
+				1C65A6852C0E5C6100C04DFF /* P2-3_DefiningAnxietyScenario.swift in Sources */,
+				1C65A70A2C0E77B800C04DFF /* Level2.swift in Sources */,
+				1C65A6A12C0E5CD500C04DFF /* JournalDetailView.swift in Sources */,
+				1C65A7162C0E77B800C04DFF /* ScenarioTemplate.swift in Sources */,
+				1C65A6372C0E5A5500C04DFF /* SelfCareMainView.swift in Sources */,
 				1C9715FA2BF2BFE700684135 /* peakmind_pt2App.swift in Sources */,
+				1C65A6A02C0E5CD500C04DFF /* JournalDataManager.swift in Sources */,
+				1C65A6A32C0E5CD500C04DFF /* JournalEntry.swift in Sources */,
+				1C65A6BF2C0E73D300C04DFF /* Sherpa.swift in Sources */,
+				1C65A7012C0E77B800C04DFF /* TimerView.swift in Sources */,
+				1C65A70F2C0E77B800C04DFF /* CurrentToNewHabits.swift in Sources */,
+				1C65A6802C0E5C6100C04DFF /* P1-10_LifestyleModule.swift in Sources */,
+				1C65A7132C0E77B800C04DFF /* LevelOneMapView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -563,6 +1219,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				ASSETCATALOG_COMPILER_INCLUDE_INFOPLIST_LOCALIZATIONS = NO;
 				CODE_SIGN_ENTITLEMENTS = "peakmind-pt2/peakmind-pt2.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -594,6 +1252,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				ASSETCATALOG_COMPILER_INCLUDE_INFOPLIST_LOCALIZATIONS = NO;
 				CODE_SIGN_ENTITLEMENTS = "peakmind-pt2/peakmind-pt2.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;

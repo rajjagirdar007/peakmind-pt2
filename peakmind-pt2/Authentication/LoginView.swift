@@ -1,5 +1,6 @@
 import SwiftUI
 import GoogleSignInSwift
+import AuthenticationServices
 
 struct LoginView: View {
     @State private var email = ""
@@ -52,5 +53,20 @@ struct LoginView: View {
                 .padding()
         }
         .padding()
+    }
+}
+
+
+struct SignInWithAppleButtonView: View {
+    @EnvironmentObject var authViewModel: AuthViewModel
+
+    var body: some View {
+        SignInWithAppleButton(
+            .signIn,
+            onRequest: authViewModel.handleSignInWithAppleRequest,
+            onCompletion: authViewModel.handleSignInWithAppleCompletion
+        )
+        .frame(width: 280, height: 45)
+        .signInWithAppleButtonStyle(.black)
     }
 }
